@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int a;
+   int b; 
+   cout<<"enter you first number: ";
+   cin>>a ;
+   cout << "enter your second number: ";
+   cin>>b; 
+   int sum = a+b;
+   cout<< "sum is :"<< sum<< endl;
+   int difference = a-b;
+   cout<<"difference is :"<<difference<< endl;
+   int product = a*b;
+   cout<< "product is :"<< product<< endl;
+   int quotient = a/b;
+   cout<<"quotient is :"<<quotient<<endl;
+   return 0;
+}
